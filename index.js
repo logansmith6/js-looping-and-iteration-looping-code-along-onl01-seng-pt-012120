@@ -4,5 +4,5 @@ function writeCards(cards){
   for(let x = 0; x < cards.length; x++) {
     thanks.unshift('Thank you, ${cards[i]}');
   }
-  return cards;
+  return thanks;
 }
